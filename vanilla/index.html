@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <div id="app"></div>
+    <script>
+      // select the div element using a DOM method
+      const app = document.getElementById("app");
+      // create new h1 element
+      const header = document.createElement("h1");
+      //   create a new text node
+      const text = "Develop. Preview. Ship";
+      const textNode = document.createTextNode(text);
+      // append the text to the header element
+      header.appendChild(textNode);
+      // append the header to the div with id = app
+      app.appendChild(header);
+    </script>
+  </body>
+</html>
